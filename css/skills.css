@@ -74,8 +74,8 @@ body{
 @keyframes html {
     0%{
         width: 0%;
-    }100%{
-        width: 90%;
+    }50%{
+        width: 50%;
     }
 }
 .skill_bar .bar .css{
