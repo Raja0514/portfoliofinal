@@ -68,7 +68,7 @@ body{
     border-radius: 25px;
 }
 .skill_bar .bar .html{
-    width: 90%;
+    width: 50%;
     animation: html 2s;
 }
 @keyframes html {
@@ -79,14 +79,14 @@ body{
     }
 }
 .skill_bar .bar .css{
-    width: 85%;
+    width: 30%;
     animation: css 2s;
 }
 @keyframes css {
     0%{
         width: 0%;
-    }100%{
-        width: 85%;
+    }30%{
+        width: 30%;
     }
 }
 /* .skill_bar .bar .sass{
@@ -101,14 +101,14 @@ body{
     }
 } */
 .skill_bar .bar .js{
-    width: 80%;
+    width: 70%;
     animation: css 2s;
 }
 @keyframes js {
     0%{
         width: 0%;
-    }100%{
-        width: 80%;
+    }70%{
+        width: 70%;
     }
 }
 .skill_bar .bar .react{
@@ -123,35 +123,47 @@ body{
     }
 }
 .skill_bar .bar .node{
-    width: 70%;
+    width: 15%;
     animation: node 2s;
 }
 @keyframes node {
     0%{
         width: 0%;
-    }100%{
-        width: 70%;
+    }15%{
+        width: 15%;
     }
 }
 .skill_bar .bar .express{
-    width: 65%;
+    width: 15%;
     animation: express 2s;
 }
 @keyframes express {
     0%{
         width: 0%;
-    }100%{
-        width: 65%;
+    }15%{
+        width: 15%;
     }
 }
 .skill_bar .bar .mongo{
-    width: 60%;
+    width: 15%;
     animation: mongo 2s;
 }
 @keyframes mongo {
     0%{
         width: 0%;
-    }100%{
-        width: 60%;
+    }15%{
+        width: 15%;
+    }
+}
+
+.skill_bar .bar .reactnative{
+    width: 50%;
+    animation: mongo 2s;
+}
+@keyframes mongo {
+    0%{
+        width: 0%;
+    }50%{
+        width: 50%;
     }
 }
